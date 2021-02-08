@@ -9,7 +9,6 @@ import io
 tmp_dir = "./tmp"
 lexactivator_libs_version = "v3.14.3"
 
-
 class FileInfo(object):
     def __init__(self, src, dest):
         self.src = src
