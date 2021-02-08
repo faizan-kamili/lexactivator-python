@@ -45,7 +45,7 @@ jobs:
           tags: true 
 
   deploy:
-  needs: update-version
+    needs: update-version
 
     runs-on: ubuntu-latest
 
