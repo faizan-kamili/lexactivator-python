@@ -7,7 +7,7 @@ import shutil
 import io
 
 tmp_dir = "./tmp"
-lexactivator_libs_version = "v{{ github.event.inputs.packageVersion }}"
+lexactivator_libs_version = "v3.14.1"
 
 class FileInfo(object):
     def __init__(self, src, dest):
