@@ -38,5 +38,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: cat publish file
       run: |
-        git pull origin master
+        git pull origin master --ff-only
         cat pre-publish.py
