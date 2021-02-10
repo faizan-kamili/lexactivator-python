@@ -7,7 +7,7 @@ import shutil
 import io
 
 tmp_dir = "./tmp"
-lexactivator_libs_version = "v3.14.13"
+lexactivator_libs_version = "v3.14.14"
 
 class FileInfo(object):
     def __init__(self, src, dest):
